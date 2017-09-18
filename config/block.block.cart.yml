@@ -1,0 +1,21 @@
+uuid: c337f5d5-e080-438f-a97c-96a59a880c30
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - bartik
+id: cart
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: visible
+  dropdown: true
+visibility: {  }

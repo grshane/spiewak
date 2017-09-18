@@ -1,0 +1,20 @@
+uuid: b856e389-9be0-408a-9f40-6bc8726ec277
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_authnet
+id: authorize_net
+label: Authorize.net
+weight: null
+plugin: authorizenet
+configuration:
+  api_login: 4V9AM8q4AgzA
+  transaction_key: 7E63r6wfV6BC97yV
+  transaction_type: authCaptureTransaction
+  display_label: Authorize.net
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND
