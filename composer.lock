@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4889649d6174e53d4a3dbe3468426833",
+    "content-hash": "99e72561bb6da57d7ebeb6f16b5f0725",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -473,16 +473,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "2.5.1",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "e325349acaebc2ba39a8e77143c17a5881a44d8f"
+                "reference": "7a634471471b913e63888b64b626b544799db282"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/e325349acaebc2ba39a8e77143c17a5881a44d8f",
-                "reference": "e325349acaebc2ba39a8e77143c17a5881a44d8f",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/7a634471471b913e63888b64b626b544799db282",
+                "reference": "7a634471471b913e63888b64b626b544799db282",
                 "shasum": ""
             },
             "require": {
@@ -521,7 +521,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2017-09-18T03:20:24+00:00"
+            "time": "2017-09-18T21:45:28+00:00"
         },
         {
             "name": "consolidation/output-formatters",
@@ -3060,17 +3060,17 @@
         },
         {
             "name": "drupal/profile",
-            "version": "1.0.0-beta1",
+            "version": "1.0.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/profile",
-                "reference": "8.x-1.0-beta1"
+                "reference": "8.x-1.0-rc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/profile-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "0a60fbae2ec3985eaf36574974ede24499b8faf9"
+                "url": "https://ftp.drupal.org/files/projects/profile-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "cc537ca25412adc4fa601ff42cf2fb5cbc6e7b6b"
             },
             "require": {
                 "drupal/core": "~8.1",
@@ -3082,11 +3082,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1",
-                    "datestamp": "1497287643",
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1505830145",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -6314,6 +6314,31 @@
             "time": "2017-03-01T18:13:50+00:00"
         },
         {
+            "name": "thememachine/eleven",
+            "version": "8.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thememachine/eleven.git",
+                "reference": "b31e7e5b3f53ae45118ac48bb6b081f031e3913f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thememachine/eleven/zipball/b31e7e5b3f53ae45118ac48bb6b081f031e3913f",
+                "reference": "b31e7e5b3f53ae45118ac48bb6b081f031e3913f",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-3"
+            ],
+            "description": "this one goes to 11",
+            "support": {
+                "source": "https://github.com/thememachine/eleven/tree/8.0-beta1",
+                "issues": "https://github.com/thememachine/eleven/issues"
+            },
+            "time": "2017-08-01T19:59:48+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.25.0",
             "source": {
@@ -8839,7 +8864,8 @@
         "drupal/fpa": 20,
         "drupal/inline_entity_form": 10,
         "drupal/rules": 15,
-        "drupal/simple_block": 10
+        "drupal/simple_block": 10,
+        "thememachine/eleven": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -11,6 +11,10 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "eleven": {
+            "type": "vcs",
+            "url": "https://github.com/thememachine/eleven"
         }
     },
     "require": {
@@ -39,6 +43,7 @@
         "drupal/token": "^1.0",
         "drush/drush": "~8",
         "rvtraveller/qs-composer-installer": "^1.1",
+        "thememachine/eleven": "^8.0@beta",
         "webflo/drupal-core-strict": "^8"
     },
     "require-dev": {
