@@ -1,0 +1,7 @@
+name: spiewak
+recipe: pantheon
+config:
+  framework: drupal8
+  env: dev
+  site: spiewak
+  id: c1f2d565-ac04-47ad-b2ee-d19bf281e8dc
