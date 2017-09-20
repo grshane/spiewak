@@ -1,0 +1,20 @@
+uuid: 9fc40a99-e275-4194-a0cf-cd4706f5a803
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eleven
+_core:
+  default_config_hash: Vk8cBo5njqS3ZHas7AgAuzxMy9W9pnPVW3di97U11NY
+id: eleven_page_title
+theme: eleven
+region: header_first
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
