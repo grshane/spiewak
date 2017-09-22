@@ -1,0 +1,22 @@
+uuid: 9ae529ff-19b4-4b15-a1d7-6df97f73ffdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - spiewaksass
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: spiewaksass_search
+theme: spiewaksass
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

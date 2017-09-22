@@ -1,0 +1,21 @@
+uuid: 7cd95a0c-b9b0-4f33-9d25-648fe48896b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - emulsify
+id: emulsify_cart
+theme: emulsify
+region: header
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: visible
+  dropdown: true
+visibility: {  }

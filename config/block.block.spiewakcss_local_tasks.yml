@@ -1,0 +1,22 @@
+uuid: 199c9d55-6984-480e-ab00-972fdfae630d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spiewakcss
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: spiewakcss_local_tasks
+theme: spiewakcss
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: d5f77d6d-5b69-4032-b74a-4656d4838019
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - spiewakify
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: spiewakify_help
+theme: spiewakify
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

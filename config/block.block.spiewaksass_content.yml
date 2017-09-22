@@ -1,0 +1,22 @@
+uuid: e5bcdff0-d318-418a-bc40-20470177070e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spiewaksass
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: spiewaksass_content
+theme: spiewaksass
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

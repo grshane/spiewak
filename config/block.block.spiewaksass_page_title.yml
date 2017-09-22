@@ -1,0 +1,20 @@
+uuid: 7ed5b1c7-2072-41ef-9ac3-a16adec92085
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spiewaksass
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: spiewaksass_page_title
+theme: spiewaksass
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

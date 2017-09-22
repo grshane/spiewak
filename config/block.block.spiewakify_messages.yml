@@ -1,0 +1,22 @@
+uuid: 7043144f-e463-4829-ac97-e5bcf3d86767
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spiewakify
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: spiewakify_messages
+theme: spiewakify
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

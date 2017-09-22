@@ -1,0 +1,20 @@
+uuid: f5ff67b1-ab71-4ad2-921b-c45704e9c34b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spiewakcss
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: spiewakcss_page_title
+theme: spiewakcss
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

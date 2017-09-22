@@ -1,0 +1,22 @@
+uuid: 313a6e98-b4c9-4c39-a6cd-c3e9b28234b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spiewakcss
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: spiewakcss_messages
+theme: spiewakcss
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

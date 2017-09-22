@@ -1,0 +1,22 @@
+uuid: 450436f8-9ad9-48f7-9746-12155a78b728
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spiewaksass
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: spiewaksass_messages
+theme: spiewaksass
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
