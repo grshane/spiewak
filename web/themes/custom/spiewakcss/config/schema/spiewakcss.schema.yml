@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the spiewakcss theme.
+
+spiewakcss.settings:
+  type: theme_settings
+  label: 'spiewakcss settings'
