@@ -1,0 +1,22 @@
+uuid: 571ef6e4-2ac9-4866-8c7a-5d1f59277b82
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - spiewakcss
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: spiewakcss_help
+theme: spiewakcss
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
