@@ -19,6 +19,7 @@ module:
   commerce_product: 0
   commerce_store: 0
   commerce_tax: 0
+  components: 0
   config: 0
   config_direct_save: 0
   contact: 0
@@ -69,6 +70,7 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  unified_twig_ext: 0
   update: 0
   user: 0
   views_ui: 0
@@ -85,6 +87,8 @@ theme:
   eleven: 0
   bootstrap: 0
   spiewakcss: 0
+  emulsify: 0
+  spiewakify: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

@@ -1,0 +1,21 @@
+uuid: 09943c26-eaad-4a3e-836d-3a283ad470ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - spiewakify
+id: spiewakify_cart
+theme: spiewakify
+region: header
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: visible
+  dropdown: true
+visibility: {  }

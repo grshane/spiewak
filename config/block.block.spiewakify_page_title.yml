@@ -1,0 +1,20 @@
+uuid: c186d080-93d4-4907-b0d2-f3513e4ac85e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spiewakify
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: spiewakify_page_title
+theme: spiewakify
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

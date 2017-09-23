@@ -43,6 +43,7 @@
         "drupal/simple_block": "^1.0@beta",
         "drupal/token": "^1.0",
         "drush/drush": "~8",
+        "fourkitchens/emulsify": "^2.1",
         "rvtraveller/qs-composer-installer": "^1.1",
         "thememachine/eleven": "^8.0@beta",
         "webflo/drupal-core-strict": "^8"

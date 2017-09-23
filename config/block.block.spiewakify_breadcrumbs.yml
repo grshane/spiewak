@@ -1,0 +1,22 @@
+uuid: 508c9cd5-51c5-40cd-87c0-9fe75852377b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spiewakify
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: spiewakify_breadcrumbs
+theme: spiewakify
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
